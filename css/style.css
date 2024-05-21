@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Martian+Mono:wght@100..800&display=swap');*{
+    padding: 0;
+    margin: 0;
+    font-family: "Almarai", sans-serif;
+    font-weight: 700;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    text-align: center;
+    background-color: rgb(247, 245, 245);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: justify;
+    background-color:#ffe606 ;
+    height: 68px;
+}
+header .right img{
+    width: 55px;
+    margin-right: 10px;
+}
+header .center input{
+    padding: 7px 5px 7px 450px;
+    border: none;
+    border-radius: 5px;
+}
+header .left a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgba(3, 5, 56, 0.767);
+    transition: 0.2s ease;
+}
+header .left a:hover{
+    color: rgba(0, 0, 0, 0.534);
+}
+header .left i{
+    margin-right: 10px;
+    border-left: 1px solid rgba(0, 0, 0, 0.596);
+    padding-left: 10px ;
+    color: rgba(3, 5, 56, 0.616);
+    transition: 0.2s ease;
+}
+header .left i:hover{
+    color: rgba(0, 0, 0, 0.534);
+}
+header .left #shoping{
+    border-left: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.navbar a:hover{
+    box-shadow: 0px 0px  6px rgba(0, 0, 0, 0.185);
+    background-color: white;
+}
+.navbar #all{
+    color:rgb(34, 91, 197);
+    border-left: 1px solid rgba(3, 17, 95, 0.521);
+}
+.navbar #all:hover{
+    padding: 11px 0px;
+    box-shadow: 0px 0px  6px rgba(0, 0, 0, 0.185);
+}
+.navbar i{
+    margin-right: 70px;
+    margin-left: 10px;
+}
+.navbar #offer{
+    color: rgb(236, 9, 9);
+    margin-left: 50px;
+}
+#visa{
+    width: 100%;
+}
+.slide-container{
+    position: relative;
+}
+.slide-container img{
+    width: 100%;
+}
+.sections{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 180px;
+}
+.sections img{
+    width: 100px;
+    opacity: 1;
+}
+.sections img:hover{
+    opacity: 0.7;
+}
+.offers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 390px;
+}
+.offer1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.offer1 h2{
+    display: block;
+    margin-bottom: 20px;
+}
+.offer1 img{
+    width: 200px;
+    border-radius: 10px;
+    opacity: 1;
+}
+.offer1 img:hover{
+    opacity: 0.7;
+}
+.offer1 .off{
+    text-align: right;
+}
+.offer1 .off p{
+    font-size: small;
+    margin-bottom: 10px;
+}
+.offer2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-wrap: wrap;
+    background-color: rgb(255, 242, 202);
+}
+.offer2 h2{
+    display: block;
+    margin-bottom: 20px;
+}
+.offer2 img{
+    width: 146px;
+    height: 123px;
+    border-radius: 10px;
+    opacity: 1;
+}
+.offer2 img:hover{
+    opacity: 0.7;
+}
+.offer2 h3{
+    font-size: small;
+    font-weight: 600;
+}
+.offer2 .off{
+    text-align: right;
+}
+.offer2 .off p{
+    font-size: small;
+}
+.offer2 .off #cotsh{
+    font-size: x-large;
+}
+.offer2 .off span{
+    font-size: x-large;
+}
+.offer3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.offer3 h2{
+    display: block;
+    margin-bottom: 20px;
+}
+.offer3 img{
+    width: 400px;
+    height: 170px;
+    border-radius: 10px;
+}
+#cardsh1{
+    color: rgb(31, 31, 31);
+    font-weight: 800;
+    text-align: start;
+    margin: 30px;
+}
+.btncard{
+    border: none;
+    font-size: x-large;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    background-color: #ffe606;
+}
+.btncard:hover{
+    color: rgba(0, 0, 0, 0.726);
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: transform o.5s;
+}
+.cards .card{
+    background-color: white;
+    width: 250px;
+    border-radius: 18px;
+    box-shadow: 0px 0px 0px 0.7px rgba(34, 34, 34, 0.185);
+}
+.cards a{
+    text-decoration: none;
+    color: black;
+}
+.cards .card img{
+    margin: 5px;
+}
+.cards .card button{
+    margin: 5px;
+    display: inline-block;
+    color: rgba(26, 26, 36, 0.774);
+    padding:  8px;
+    border: none;
+    transition: 0.2s ease-in;
+    background-color: white;
+}
+.cards .card button:hover{
+    color: rgba(0, 0, 0, 0.877);
+}
+.cards .card p{
+    font-size: small;
+    color: rgba(26, 26, 36, 0.774);
+}
+.cards .card sup{
+    color: rgba(26, 26, 36, 0.774);
+
+}
+.carttab{
+    width: 400px;
+    background-color: #ffe606;
+    color: black;
+    position: fixed;
+    inset: 0 -400px 0 auto;
+    grid-template-rows: 70px lfr 70px;
+    transform: 0.5s;
+
+}
+body.showcart .carttab{
+    inset: 0 0 0 auto;
+}
+/* body.showcart .cards{
+    transform: translateX(-250px);
+} */
+.carttab h2{
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+.carttab button{
+    background-color: white;
+    color: black;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.carttab .listcart .item img{
+    width: 80px;
+    border-radius: 20px;
+}
+.carttab .listcart .item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.listcart .quantity span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.listcart .quantity span:nth-child(2){
+    background-color: transparent;
+}
+.listcart{
+    overflow: auto;
+}
+.clear{
+    margin-top: 5px;
+    background-color: white;
+    padding: 10px;
+}
+.clear img{
+    width: 100%;
+}

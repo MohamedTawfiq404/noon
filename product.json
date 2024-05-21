@@ -1,0 +1,21 @@
+[
+    {
+        "id":1,
+        "name": "iPhone 15 Pro Max",
+        "price": 63500,
+        "'image": "./img/card1.avif"
+    },
+    {
+        "id":2,
+        "name": "Galaxy S24 Ultra",
+        "price": 49999,
+        "'image": "./img/card2.avif"
+    },
+    {
+        "id":4,
+        "name": "Galaxy A15",
+        "price": 6500,
+        "'image": "./img/card5.avif"
+    }
+
+]
